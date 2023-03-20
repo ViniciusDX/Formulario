@@ -1,0 +1,64 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-image: url("./Astronauta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+}
+
+form{
+  display: grid;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+}
+
+select,textarea, .campo, .button {
+  border: 1px solid #cecece;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+select, textarea, .visualizarSenha, .container_checkbox{
+  margin-bottom: 12px;
+}
+option{
+  color: black;
+}
+
+label{
+  margin: 12px 0;
+  
+}
+p,label,h1{
+  color: white;
+}
+#name, #email{
+  margin-bottom: 1rem;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: .9rem;
+  cursor:pointer ;
+}
+.button:hover{
+  background-color: rgb(45, 45, 45);
+  transition: .5s;
+
+}
+
+.visualizarSenha{
+  margin-top: 5px;
+}
